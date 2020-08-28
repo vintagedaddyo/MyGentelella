@@ -1043,7 +1043,7 @@ class Form extends DefaultForm
 		return $input;
 	}
     
-    function generate_select_box($name, $option_list, $selected=array(), $options=array())
+    function generate_select_box($name, $option_list=array(), $selected=array(), $options=array())
 	{
 		if(!isset($options['multiple']))
 			$select = "<select name=\"{$name}\"";
