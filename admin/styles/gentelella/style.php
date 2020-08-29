@@ -1,30 +1,18 @@
 <?php
 /**
- * This is an example style file for Admin CP styles.
  *
- * It allows you to override our existing layout generation
- * classes with your own to further customise the Admin CP
- * layout beyond CSS.
+ * MyBB: MyGentelella - Admin CP
  *
- * Your class name      Should extend
- * ---------------      -------------
- * Page                 DefaultPage
- * SidebarItem          DefaultSidebarItem
- * PopupMenu            DefaultPopupMenu
- * Table                DefaultTable
- * Form                 DefaultForm
- * FormContainer        DefaultFormContainer
+ * Filename: style.php
  *
- * For example, to output your own custom header:
+ * Style Author: Chack1172
  *
- * class Page extends DefaultPage
- * {
- *   function output_header($title)
- *   {
- *      echo "<h1>{$title}</h1>";
- *   }
- * }
+ * C Site: http://www.chack1172.altervista.org/
  *
+ * MyBB Version: 1.8.x
+ *
+ * Style Version: 1.2
+ * 
  */
 
 // Disallow direct access to this file for security reasons
