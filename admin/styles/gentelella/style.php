@@ -68,7 +68,7 @@ class Page extends DefaultPage
 		echo "	<meta name=\"author\" content=\"MyBB Group\">\n";
 		echo "	<meta name=\"copyright\" content=\"Copyright ".COPY_YEAR." MyBB Group.\">\n";
         echo "  <link rel=\"stylesheet\" href=\"styles/".$this->style."/bootstrap.min.css?ver=1.2\" type=\"text/css\">\n";
-        echo "  <link rel=\"stylesheet\" href=\"styles/".$this->style."/font-awesome/css/font-awesome.min.css?ver=1.2\" type=\"text/css\">\n";
+        echo "  <link rel=\"stylesheet\" href=\"styles/".$this->style."/font-awesome/css/all.min.css?ver=1.2\" type=\"text/css\">\n";
         echo "  <link rel=\"stylesheet\" href=\"styles/".$this->style."/iCheck/skins/flat/green.css?ver=1.2\" type=\"text/css\">\n";
 		echo "	<link rel=\"stylesheet\" href=\"styles/".$this->style."/main.css?ver=1.2\" type=\"text/css\">\n";
 
@@ -118,7 +118,7 @@ lang.saved = \"{$lang->saved}\";
         echo "      <div class=\"col-md-3 left_col\">\n";
         echo "        <div class=\"left_col scroll-view\">\n";
         echo "          <div class=\"navbar nav_title\">\n";
-        echo "            <a href=\"index.php\" class=\"site_title\"><i class=\"fa fa-comments-o\"></i> <span>MyBB Admin CP</span></a>\n";
+        echo "            <a href=\"index.php\" class=\"site_title\"><i class=\"far fa-comments\"></i> <span>MyBB Admin CP</span></a>\n";
         echo "          </div>\n";
         echo "          <div class=\"clearfix\"></div>\n";
         echo "          <div class=\"profile\">\n";
@@ -139,18 +139,18 @@ lang.saved = \"{$lang->saved}\";
 		echo "        <div class=\"nav_menu\">\n";
 		echo "          <nav role=\"navigation\">\n";
         echo "            <div class=\"nav toggle\">\n";
-        echo "              <a id=\"menu_toggle\"><i class=\"fa fa-bars\"></i></a>\n";
+        echo "              <a id=\"menu_toggle\"><i class=\"fas fa-bars\"></i></a>\n";
         echo "            </div>\n";
 		echo "            <ul class=\"nav navbar-nav navbar-right\">\n";
 		echo "              <li>\n";
 		echo "                <a href=\"#\" class=\"user-profile dropdown-toggle\" data-toggle=\"dropdown\" aria-expanded=\"false\">\n";
 		echo "                  <img src=\"{$avatar}\" alt=\"\">\n";
         echo "                  {$mybb->user['username']}\n";
-        echo "                  <span class=\" fa fa-angle-down\"></span>\n";
+        echo "                  <span class=\" fas fa-angle-down\"></span>\n";
         echo "                </a>\n";
         echo "                <ul class=\"dropdown-menu dropdown-usermenu pull-right\">\n";
         echo "                  <li><a href=\"{$mybb->settings['bburl']}\">{$lang->view_board}</a></li>\n";
-        echo "                  <li><a href=\"index.php?action=logout&amp;my_post_key={$mybb->post_code}\" class=\"logout\"><i class=\"fa fa-sign-out pull-right\"></i> {$lang->logout}</a></li>\n";
+        echo "                  <li><a href=\"index.php?action=logout&amp;my_post_key={$mybb->post_code}\" class=\"logout\"><i class=\"fas fa-sign-out-alt pull-right\"></i> {$lang->logout}</a></li>\n";
         echo "                </ul>\n";
 		echo "              </li>\n";
 		echo "            </ul>\n";
@@ -504,7 +504,7 @@ lang.saved = \"{$lang->saved}\";
 <meta name="copyright" content="Copyright {$copy_year} MyBB Group.">
 <link rel="stylesheet" href="./styles/{$cp_style}/bootstrap.min.css" type="text/css">
 <link rel="stylesheet" href="./styles/{$cp_style}/login.css" type="text/css">
-<link rel="stylesheet" href="./styles/{$cp_style}/font-awesome/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="./styles/{$cp_style}/font-awesome/css/all.min.css" type="text/css">
 </head>
 <body class="login">
 <div class="login_wrapper">
@@ -553,7 +553,7 @@ EOF;
                 <div class="separator">
                     <br>
                     <h1>
-                        <i class="fa fa-paw"></i>
+                        <i class="fas fa-paw"></i>
                         Gentelella Alela!
                     </h1>
                     <p>Theme Powered By <a href="http://www.chack1172.altervista.org/?language=english">chack1172</a>. Based On Gentelella - Bootstrap Admin Template.</p>
@@ -602,7 +602,7 @@ EOF;
 <meta name="copyright" content="Copyright {$copy_year} MyBB Group." />
 <link rel="stylesheet" href="./styles/{$cp_style}/bootstrap.min.css" type="text/css">
 <link rel="stylesheet" href="./styles/{$cp_style}/login.css" type="text/css">
-<link rel="stylesheet" href="./styles/{$cp_style}/font-awesome/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="./styles/{$cp_style}/font-awesome/css/all.min.css" type="text/css">
 </head>
 <body class="login">
 <div class="login_wrapper">
@@ -618,7 +618,7 @@ EOF;
                 <div class="separator">
                     <br>
                     <h1>
-                        <i class="fa fa-paw"></i>
+                        <i class="fas fa-paw"></i>
                         Gentelella Alela!
                     </h1>
                     <p>Theme Powered By <a href="http://www.chack1172.altervista.org/?language=english">chack1172</a>. Based On Gentelella - Bootstrap Admin Template.</p>
@@ -680,7 +680,7 @@ class SidebarItem extends DefaultSidebarItem
 <li{$class}>
     <a>
         {$this->_title}
-        <span class="fa fa-chevron-down"></span>
+        <span class="fas fa-chevron-down"></span>
     </a>
     <ul class="nav child_menu"{$style}>
         {$this->_contents}
@@ -932,7 +932,7 @@ class Form extends DefaultForm
         $input .= " class=\"btn btn-primary {$class}\"";
 		if(isset($options['style']))
 			$input .= " style=\"".$options['style']."\"";
-        $input .= "><i class=\"fa fa-upload\"></i></label>\n";
+        $input .= "><i class=\"fas fa-upload\"></i></label>\n";
 		return $input;
 
 	}
