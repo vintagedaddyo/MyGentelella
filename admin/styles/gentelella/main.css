@@ -209,3 +209,7 @@ label { cursor: pointer; }
 	
 	.top_nav .navbar-right li { position: relative; }
 }
+
+.x_content {
+	overflow-y: auto;
+}
