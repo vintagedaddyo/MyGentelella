@@ -554,9 +554,9 @@ EOF;
                     <br>
                     <h1>
                         <i class="fas fa-paw"></i>
-                        Gentelella Alela!
+                        MyGentelella Alela!
                     </h1>
-                    <p>Powered By <a href="https://www.mybb.com/" target="_blank">MyBB</a>, &copy; 2002-{$copy_year} <a href="https://www.mybb.com/" target="_blank">MyBB Group</a>.<br/>Theme By <a href="http://www.chack1172.altervista.org/?language=english">chack1172</a>. Based On Gentelella - Bootstrap Admin Template.</p>
+                    <p>Powered By <a href="https://www.mybb.com/" target="_blank">MyBB</a>, &copy; 2002-{$copy_year} <a href="https://www.mybb.com/" target="_blank">MyBB Group</a>.<br/>Theme By <a href="http://www.chack1172.altervista.org/?language=english">chack1172</a>. Based On Gentelella - Bootstrap Admin Template by <a href=\"https://colorlib.com\">Colorlib</p>
                 </div>
             </form>
         </section>
@@ -619,9 +619,9 @@ EOF;
                     <br>
                     <h1>
                         <i class="fas fa-paw"></i>
-                        Gentelella Alela!
+                        MyGentelella Alela!
                     </h1>
-                    <p>Powered By <a href="https://www.mybb.com/" target="_blank">MyBB</a>, &copy; 2002-{$copy_year} <a href="https://www.mybb.com/" target="_blank">MyBB Group</a>.<br/>Theme By <a href="http://www.chack1172.altervista.org/?language=english">chack1172</a>. Based On Gentelella - Bootstrap Admin Template.</p>
+                    <p>Powered By <a href="https://www.mybb.com/" target="_blank">MyBB</a>, &copy; 2002-{$copy_year} <a href="https://www.mybb.com/" target="_blank">MyBB Group</a>.<br/>Theme By <a href="http://www.chack1172.altervista.org/?language=english">chack1172</a>. Based On Gentelella - Bootstrap Admin Template by <a href=\"https://colorlib.com\">Colorlib</p>
             </form>
         </section>
 	</div>
