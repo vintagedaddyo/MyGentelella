@@ -547,7 +547,7 @@ EOF;
                 {$secret_pin}
                 <div>
                     <input type="submit" class="btn btn-default" value="{$lang->login}" />
-                    <a href="../member.php?action=lostpw" class="reset_pass">{$lang->lost_password}</a>
+                    <a href="../member.php?action=lostpw" class="reset_pass"><i class="far fa-lightbulb"></i> {$lang->lost_password}</a>
                 </div>
                 <div class="clearfix"></div>
                 <div class="separator">
