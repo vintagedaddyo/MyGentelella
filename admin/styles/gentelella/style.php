@@ -512,7 +512,7 @@ lang.saved = \"{$lang->saved}\";
         <section class="login_content">
             <form method="post" action="{$_SERVER['PHP_SELF']}{$query_string}">
                 <input type="hidden" name="do" value="login">
-                <h1>AdminCP Login</h2>
+                <a href="../index.php"><h1><i class="fas fa-cog"></i> Admin CP Login</h2></a>
 EOF;
 		if($message)
 			$login_page .= "<p id=\"message\" class=\"{$class}\"><span class=\"text\">{$message}</span></p>";
@@ -610,7 +610,7 @@ EOF;
         <section class="login_content">
             <form method="post" action="index.php{$query_string}">
                 <input type="hidden" name="do" value="do_2fa" />
-                <h1>Admin CP 2FA</h2>
+                <a href="../index.php"><h1><i class="fas fa-cog"></i> Admin CP 2FA</h2></a>
                 <p>{$lang->my2fa_code}</p>
                 <div><input type="text" name="code" id="code" class="form-control initial_focus"></div>
                 <div><input type="submit" class="btn btn-default" value="{$lang->login}"></div>
