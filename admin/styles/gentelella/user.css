@@ -1,4 +1,4 @@
-#page_user_users .table-responsive { overflow: initial }
+#page_user_users .table-responsive { overflow: auto; }
 
 #search_form { padding-top: 15px }
 #search_form .search_default { width: auto; display: inline-block; }
