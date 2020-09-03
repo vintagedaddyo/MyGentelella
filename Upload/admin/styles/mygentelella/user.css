@@ -1,0 +1,109 @@
+/**
+ *
+ * MyBB: MyGentelella - Admin CP
+ *
+ * Filename: user.css
+ *
+ * Style Author: Chack1172
+ *
+ * C Site: http://www.chack1172.altervista.org/
+ *
+ * MyBB Version: 1.8.x
+ *
+ * Style Version: 1.2
+ * 
+ */
+
+#page_user_users .table-responsive {
+    overflow-y: auto;
+}
+#search_form {
+    padding-top: 15px;
+}
+#search_form .search_default {
+    width: auto;
+    display: inline-block;
+}
+#users_list fieldset {
+    float: left !important;
+    width: 31.33333333% !important;
+    padding: 10px 20px;
+    margin: 0px 1%;
+    margin-bottom: 10px;
+    border: 1px solid #e3e3e3;
+    position: relative;
+}
+#users_list fieldset legend {
+    float: left;
+}
+#users_list fieldset legend > * {
+    display: inline-block;
+}
+#users_list fieldset .float_right {
+    display: block;
+    width: 100%;
+    background: #f2f5f7;
+    border-top: 1px solid #e6e9ed;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 9px 10px !important;
+    text-align: center;
+}
+#users_list fieldset .float_right .popup_button {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #337ab7;
+    font-weight: 400;
+    display: inline-block;
+    border: 1px solid #2e6da4;
+}
+
+.inline_selected {
+    background: rgba(38, 185, 154, 0.16);
+}
+
+.user_avatar {
+    float: right;
+    padding-right: 5px;
+    width: 40%;
+    margin-bottom: 47px;
+}
+.user_avatar > img {
+    border-radius: 50%;
+    border: 1px solid #e6e9ed;
+    padding: 2px;
+    width: 100px;
+    height: auto;
+    background: #fff;
+}
+
+.user_details {
+    float: left;
+    padding-left: 5px;
+    width: 48%;
+    margin-bottom: 47px;
+}
+
+@media (min-width: 1356px) {
+    #users_list fieldset {
+        width: 31.33333333% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1355px) {
+    #users_list fieldset {
+        width: 48% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    #users_list fieldset {
+        width: 100% !important;
+    }
+}

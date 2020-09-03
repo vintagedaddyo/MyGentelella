@@ -1,0 +1,39 @@
+/**
+ *
+ * MyBB: MyGentelella - Admin CP
+ *
+ * Filename: config.css
+ *
+ * Style Author: Chack1172
+ *
+ * C Site: http://www.chack1172.altervista.org/
+ *
+ * MyBB Version: 1.8.x
+ *
+ * Style Version: 1.2
+ * 
+ */
+
+#page_config_settings input[type="number"] {
+    padding: 6px 0px;
+    font-weight: 400 !important;
+    width: 100% !important;
+}
+
+#settings_search {
+    display: table;
+    width: 100%;
+    padding: 10px 0px;
+}
+#settings_search .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin: 0px;
+}
+
+@media (max-width: 767px) {
+    #group_list td,
+    #group_list th {
+        white-space: normal !important;
+    }
+}
